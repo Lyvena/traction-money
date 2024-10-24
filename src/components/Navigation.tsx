@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from './Logo';
 import { Button } from './ui/button';
-import { User, Home, Mail } from 'lucide-react';
+import { User, Home, Mail, Settings } from 'lucide-react';
 
 const Navigation = () => {
   return (
@@ -20,6 +20,10 @@ const Navigation = () => {
             <Link to="/contact" className="text-gray-600 hover:text-primary flex items-center gap-2">
               <Mail className="h-4 w-4" />
               Contact
+            </Link>
+            <Link to="/settings" className="text-gray-600 hover:text-primary flex items-center gap-2">
+              <Settings className="h-4 w-4" />
+              Settings
             </Link>
             <Link to="/signup">
               <Button variant="ghost" size="sm" className="flex items-center gap-2">
