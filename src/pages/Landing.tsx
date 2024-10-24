@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Link } from 'react-router-dom';
-import { Rocket, Sparkles, ChartBar, Users, Info } from 'lucide-react';
+import { Rocket, Sparkles, ChartBar, Users } from 'lucide-react';
 import Footer from '@/components/Footer';
 import Navigation from '@/components/Navigation';
 import { motion } from 'framer-motion';
@@ -9,7 +9,7 @@ import { motion } from 'framer-motion';
 const Landing = () => {
   const features = [
     {
-      icon: <Brain className="h-8 w-8" />,
+      icon: <Rocket className="h-8 w-8" />,
       title: "AI-Powered Analysis",
       description: "Leverage advanced AI algorithms for project evaluation and funding decisions"
     },
