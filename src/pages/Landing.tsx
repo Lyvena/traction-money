@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Link } from 'react-router-dom';
-import { Brain, Sparkles, ChartBar, Users, Info } from 'lucide-react';
+import { Rocket, Sparkles, ChartBar, Users, Info } from 'lucide-react';
 import Footer from '@/components/Footer';
 import Navigation from '@/components/Navigation';
 import { motion } from 'framer-motion';
@@ -40,7 +40,7 @@ const Landing = () => {
             transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
             className="inline-block"
           >
-            <Brain className="w-20 h-20 mx-auto mb-8 text-primary" />
+            <Rocket className="w-20 h-20 mx-auto mb-8 text-primary" />
           </motion.div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Welcome to AI-PGF</h1>
           <p className="text-xl text-gray-600 mb-8">
